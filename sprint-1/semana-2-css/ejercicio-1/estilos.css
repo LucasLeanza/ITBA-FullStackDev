@@ -3,10 +3,13 @@
     --color-principal: #E63946;
     --color-secundario: #E0E0E0;
     --blanco: #FFFFFF;
+    --oro: #FFD700;
 }
 body {
     font-family: var(--fuente-principal);
     background-color: #121212;
+    text-align: center;
+    padding: 3rem 25rem;
 }
 p {
     font-size: 19px;
@@ -17,7 +20,7 @@ li {
 }
 ul a {
     text-decoration: none;
-    color: var(--color-principal);
+    color: var(--oro);
 }
 #titulo-principal {
     text-align: center;
@@ -26,4 +29,7 @@ ul a {
 .subtitulo {
     color: var(--blanco);
     font-weight: bold;
+}
+.obras {
+    list-style-type: none;
 }
