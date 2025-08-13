@@ -1,0 +1,41 @@
+:root {
+    --fuente-principal: 'Michroma', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h1, p {
+    font-family: var(--fuente-principal);
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #462c05;
+}
+p {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #725223;
+}
+.hero-banner {
+    height: 100vh;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+}
