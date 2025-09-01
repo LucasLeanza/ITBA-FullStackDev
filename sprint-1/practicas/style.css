@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-banner {
+    height: 100vh;
+    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, p, a{
+    color: white;
+
+}
+
+h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+a{
+    font-size: 0.5rem;
+    color: #c7e8ee;
+    background-color: #0077b6;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid #90e0ef;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 12rem;
+    }
+    p {
+        font-size: 3rem;
+    }
+    a {
+        font-size: 2rem;
+    }
+    
+}
